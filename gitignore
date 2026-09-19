@@ -1,0 +1,42 @@
+# ---- Secrets: never commit these ----
+.env
+.env.*
+!.env.example
+*.env
+.envrc
+secrets.*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+config.local.*
+api_keys.*
+apikeys.*
+
+# ---- Dependencies & builds ----
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- Logs & caches ----
+*.log
+npm-debug.log*
+.cache/
+.parcel-cache/
+.next/
+
+# ---- OS / editor files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
